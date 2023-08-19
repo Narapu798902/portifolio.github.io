@@ -1,0 +1,300 @@
+.index-page{
+    background-image:url("images/background-index-page.jpg");
+    height:100vh;
+    /* width:100%; */
+    background-size:cover;
+}
+.card-contaienr{
+    background-color:rgba(2,2,2,.5);
+    padding:30px;
+    width:60%;
+    margin:auto;
+    border-radius: 25px;
+    text-align: center;
+}
+.heading{
+    color:#ffffff;
+}
+.para{
+    color:#ffffff;
+}
+.button{
+    width:130px;
+    border-width: 0px;
+    border-radius: 20px;
+    background-color:#ffffff;
+    font-weight: bold;
+}
+.button a{
+    color:rgb(231, 20, 139);
+}
+.button a:hover{
+    color:Black;
+    text-decoration: none;
+}
+span{
+    color:red;
+    font-weight: bold;
+    font-size:40px;
+}
+.button:hover{
+    background-color: #c50a5b;
+    color:#ffffff;
+}
+
+/* Home page */
+.home-page{
+    background-image:url("images/background-home-page.webp");
+    width:100%;
+    background-size: cover;
+    color:#ffffff;
+}
+.navbar{
+    display:flex;
+     
+}
+.navbar-list{
+    list-style-type:none;
+    background-color:rgba(28, 228, 208, 0.3);
+    padding:10px;
+    border-radius: 25px;
+    /* border:2px solid rgb(104, 245, 219); */
+}
+.navbar-list-item{
+    
+    display:inline-block;
+    margin:0px 10px;
+}
+.navbar-list-item a{
+    color:#e4eceb;
+    font-weight: bold;
+    transition-delay: 0.2s;
+}
+.nav-item-background{
+
+}
+
+.navbar-list-item a:hover{
+    color:#ec9717;
+    text-decoration: none;
+    font-weight: bold;
+    transition-delay:0.2s;
+    transition: ease-in;
+}
+.part1{
+    height:90vh;
+    padding-left:100px;
+}
+.home-page-image-card{
+   
+}
+.home-page-image{
+    width:100%;
+    border-radius: 250px;
+    height:250px;
+    width:250px;
+    border:solid 2px rgb(104, 245, 219);
+}
+.home-page-image-card-name{
+    text-align: center;
+    padding-top:10px;
+    font-weight: bold;
+    color:rgb(104, 245, 219);
+}
+.home-span{
+    color:red;
+    font-size:40px;
+    font-weight: bold;
+}
+.cv-button{
+    width:150px;
+    margin-top:10px;
+}
+.cv-button-text{
+    color:white;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+/* About-page */
+
+.about-page{
+    background-image:url("images/background-about-page.jpg");
+    height:100vh;
+    background-size:cover;
+}
+.carasol-contaienr{
+
+}
+.detils-card{
+    border:solid 1px rgb(111, 99, 99);
+    background-color:rgba(2,2,2,.5);
+    padding:20px;
+    border-radius: 30px;
+    margin:0px 10%;
+}
+.details-card-heading{
+    color:#ffffff;
+    text-align:center;
+    padding-bottom:20px;
+    font-weight: bold;
+}
+
+.persnoal-details-table{
+    color:#25f30f;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+    table-layout:fixed;
+    font-family: Aldrich,serif,'Times New Roman', Times, serif;
+    
+}
+.persnoal-details-table td{
+    word-wrap:break-word;
+    width:50%;
+    height:20px;
+    font-weight: 600;
+}
+.persnoal-details-table th{
+    width:50%;
+    padding-left:auto;
+    height:20px;
+}
+.skills-list{
+    color:#25f30f;
+    font-family: Aldrich,serif,'Times New Roman', Times, serif;
+    font-weight: bold;
+    list-style-type:none;
+    text-align:center;
+    margin-left:0px;
+    padding-left:0px;
+}
+
+.back-button{
+    margin-top:30px;
+
+}
+
+
+/* Education page */
+.education-page{
+    Background-color:#fffffff;
+    height:100vh;
+}
+.header{
+
+}
+.education-logo{
+    height:100px;
+    width:100px;
+}
+.education-heading{
+    font-size:30px;
+    font-weight: 700;
+}
+.educaton-card{
+    border-radius:25px;
+    padding:20px;
+}
+
+.table th{
+    color:#ec9717;
+}
+
+
+/* Projects page */
+
+.projects-page{
+
+}
+.project-number-headig{
+    padding-left:24px;
+    padding-top:20px;
+    font-weight: bold;
+    font-size:28px;
+    color:tomato;
+}
+.project-card{
+    margin:20px;
+    border-radius: 25px;
+}
+.project-image{
+    width:100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.project-card-text-container{
+    padding:20px;
+}
+.project-card-heading{
+    font-size:24px;
+    font-weight: 700;
+}
+.project-card-discription{
+    font-size:16px;
+}
+.project-team-size{
+
+}
+.project-card-role{
+
+}
+.project-span{
+    font-size:16px;
+    color:inherit;
+    font-weight: 700;
+    padding-right:10px;
+}
+
+
+/* contact me page */
+
+
+.contact-me-heading{
+    font-size:30px;
+    text-align: center;
+    padding-top:30px;
+    font-weight: bold;
+    color:#ec9717;
+}
+.text-field{
+    margin:5px 0px;
+    border:1px soid #ccc;
+}
+
+.contactme-row{
+    width:20%;
+    border-width:3px;
+    border-color:#ec9717;
+    border-radius: 10px;
+}
+.form-card{
+    padding:20px;
+    border-radius: 25px;
+    margin:0px auto;
+}
+
+/* Certificates page */
+
+.certificates-page{
+    background-image: linear-gradient(to left #ffff00 , #ff3399);
+    height:100vh;
+    width:100%;
+}
+.certificate-image{
+    width:80%;
+    border-radius: 25px;;
+}
+.certificate-name{
+    font-size:26px;
+    font-weight: bold;
+    color:#ec9717
+}
+.certificates-list{
+    border:solid 2px #ec9717;
+    padding-left:90px;
+    padding-bottom:20px;
+    border-radius: 25px;;
+}
